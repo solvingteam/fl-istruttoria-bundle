@@ -1,0 +1,13 @@
+code: fl-istruttoria-bundle
+description: This is the FListruttoria bundle
+
+components:
+  plugins:
+    - plugins/flistruttoria-plugin.yaml
+
+  widgets:
+    - ui/widgets/pratica/tableWidget/pratica-table-widget-descriptor.yaml
+    - ui/widgets/pratica/detailsWidget/pratica-details-widget-descriptor.yaml
+    - ui/widgets/pratica/formWidget/pratica-form-widget-descriptor.yaml
+# entando-needle-descriptor-add-widgets - Entando blueprint will add widget bundle files here
+
